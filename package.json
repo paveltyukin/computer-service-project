@@ -1,0 +1,8 @@
+{
+  "name": "computer-service-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:paveltyukin/computer-service-project.git",
+  "author": "Pavel Tyukin",
+  "license": "MIT"
+}
