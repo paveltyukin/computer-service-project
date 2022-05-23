@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap')
+
+.body
+  font-family: 'Montserrat', sans-serif
+  font-style: normal
+  font-weight: 400
+  font-size: 18px
+
+.page
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: flex-start
+
+
+.containerBlock.headerBlock
+  padding: 40px 0 70px 0
+
+.containerBlock.manWithCompMargin
+  padding-bottom: 54px
+
+.header
+  position: absolute
+  left: 0
+  right: 0
+  margin-left: auto
+  margin-right: auto
+
+.container
+  width: 1080px
+  margin: 0 auto
+
+.customContainer
+  width: 1100px
+  margin: 0 auto
+
+.container, .customContainer
+
+  & > .containerBlock
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+
+    & > .logo
+      background-image: url("../../assets/images/logo.svg")
+      width: 236px
+      height: 114px
+
+    & > .menuBlock
+      display: flex
+      flex-direction: column
+
+      & > .contacts
+        display: flex
+        flex-direction: row
+        align-items: center
+
+        & > .icon
+          background-image: url("../../assets/images/right-arrow.svg")
+          width: 27px
+          height: 24px
+
+        & > .phone
+          padding: 0 10px 0 13px
+          color: #fff
+          font-family: 'Montserrat', sans-serif
+          font-style: normal
+          font-weight: 500
+          font-size: 24px
+          line-height: 130%
+
+        & > .instagram
+          background: url("../../assets/images/instagram.svg") no-repeat center
+          width: 32px
+          height: 32px
+          margin-left: 30px
+
+        & > .whatsapp
+          background: url("../../assets/images/whatsapp.svg") no-repeat center
+          width: 32px
+          height: 32px
+          margin: 0 20px
+
+        & > .telegram
+          background: url("../../assets/images/telegram.svg") no-repeat center
+          width: 32px
+          height: 32px
+
+      & > .menu
+        margin-top: 23px
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: flex-end
+
+        & > .menuText
+          font-family: 'Montserrat', sans-serif
+          font-style: normal
+          font-weight: 600
+          font-size: 16px
+          line-height: 20px
+          text-align: center
+          text-transform: uppercase
+          color: #FFFFFF
+
+        & > .menuSeparator
+          background: url("../../assets/images/menu-separator.svg") no-repeat center
+          width: 3px
+          height: 16px
+          margin: 0 13px 0 10px
+
+    & > .actions
+
+      & > .title
+        font-family: 'Montserrat', sans-serif
+        font-style: normal
+        font-weight: 500
+        font-size: 60px
+        line-height: 120%
+        text-transform: uppercase
+        color: #E7742E
+
+      & > .text
+        padding: 30px 0 12px 0
+        font-family: 'Montserrat', sans-serif
+        font-style: normal
+        font-weight: 500
+        font-size: 24px
+        line-height: 130%
+        color: #FFFFFF
+
+      & > .offer
+        font-family: 'Montserrat', sans-serif
+        font-style: normal
+        font-weight: 500
+        font-size: 24px
+        line-height: 130%
+        color: #E7742E
+        padding-bottom: 44px
+
+    & > .manWithComp
+      background-image: url("../../assets/images/header-man.svg")
+      width: 531px
+      height: 597px
+
+.headerSection
+  background-image: url("../../assets/images/background.svg")
+  background-repeat: no-repeat
+  background-position: 0 0
+  padding-top: 204px
+
+
+.serviceOffer
+  background: #fff
+  padding: 60px 0
+
+  .container
+
+    & > .offerBlock
+      display: grid
+      grid-template-columns: 344px 344px 344px
+      grid-column-gap: 15px
+      grid-row-gap: 40px
+
+      & > .offerItem
+        width: 344px
+        height: 464px
+
+        & > .offerItemBlock
+          display: flex
+          flex-direction: column
+          justify-content: center
+
+          & > .offerItemTitle
+            padding: 28px 0 14px 0
+            font-family: 'Montserrat', sans-serif
+            font-style: normal
+            font-weight: 500
+            font-size: 29px
+            line-height: 120%
+            text-align: center
+            text-transform: uppercase
+            color: #0B1427
+
+        & > .offerItemList
+          display: grid
+          grid-template-columns: 14px auto
+          grid-column-gap: 13px
+
+          & > .offerItemListText
+            font-family: 'Montserrat', sans-serif
+            font-style: normal
+            font-weight: 400
+            font-size: 18px
+            line-height: 140%
+            color: #0B1427
+
+
+.problem
+  background: #0B1427
+  //height: 715px
+
+  & > .h2
+    font-family: 'Montserrat',sans-serif
+    font-style: normal
+    font-weight: 500
+    font-size: 48px
+    line-height: 120%
+    text-align: center
+    text-transform: uppercase
+    color: #E7742E
+    padding: 40px 0 20px 0
+
+  & > .steps
+    display: flex
+    flex-direction: row
+    border-style: solid
+    border-width: 0 0 3px 0
+    border-color: #ffffff
+
+    & > .phone
+
+
+  & > .hr
+    height: 3px
+    background: #ffffff
+    width: 1080px
+    margin: 0 auto
+
+
+.masterCall
+  min-height: 1000px
+  & > .container
+    & > h2
+      text-align: center
+    & > h2 > span
+      font-family: 'Montserrat', sans-serif
+      font-style: normal
+      font-weight: 500
+      font-size: 48px
+      line-height: 120%
+      text-align: center
+      text-transform: uppercase
+      color: #0B1427
+      display: inline-block
+      padding-bottom: 14px
+      border-bottom: 3px solid #E7742E
+      margin-top: 40px
+      margin-bottom: 32px
+
+    & > .form
+      width: 540px
+      margin: 0 auto
+

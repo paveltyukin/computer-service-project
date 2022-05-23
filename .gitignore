@@ -1,0 +1,9 @@
+.idea/
+.next/
+node_modules/
+dist/
+build/
+.env
+.env.local
+*-error.log
+bundles/
