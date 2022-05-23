@@ -7,4 +7,3 @@ build/
 .env.local
 *-error.log
 bundles/
-custom_logs/
